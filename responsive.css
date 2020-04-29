@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN"
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #a9a9a9;
+    color: white;
+    text-align: right;
+    display: block;
+}
+.header-left {
+  width: 124px;
+  margin-top: 2px;
+  float: left;
+  font-size: 40px
+}
+.header-right {
+  float: right;
+  margin-right: 10px;
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+.header-right a:link, a:visited, a:active {
+  color: white;
+}
+.header-right a:hover {
+  color: red;
+  background-color: rgba(255, 255, 255 ,0.3);
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding 0 15px;
+  margin: 0 auto;
+}
+.container h1 {
+  color: red;
+  font-size: 60px;
+}
+.container p {
+  position: absolut;
+  top: 25%;
+  left: 39%;
+  font-size: 30px;
+  color: black;
+}
+
+.logo p1 {
+  font-size: 200px;
+  position: sticky;
+  color: yellow;
+  top: 0px;
+  left: 100px;
+}
+.logo {
+  position: relative;
+}
+.logo img {
+  min-height: 650px;
+  background: #f7f7f7 url(S__55017539.JPG) center to/100% auto no-repeat;
+  display: block;
+  width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #a9a9a9;
+    color: white;
+    text-align: center;
+    display: block;
+}
+.last-word p {
+  line-height: 4px
+}
+.last-word p1 {
+  color: black;
+  font-size: 10px;
+}
+.footer-menu a:link, a:visited, a:active {
+  color: white;
+}
+.footer-menu a:hover {
+  color: red
+}
+.footer-menu a {
+  text-decoration: none;
+}
+.footer-menu li1 {
+
+}
+ul.footer-menu li {
+display: inline;
+}

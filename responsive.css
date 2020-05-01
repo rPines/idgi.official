@@ -1,107 +1,46 @@
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN"
+@media all and (max-width: 1000px) {
+.logo p1 {
+  font-size: 99px;
+  position: absolute;
+  top: 240px;
+  left: 50px;
+}
+.top-wrapper h1 {
+    font-size: 32px;
+  }
 }
 
-a {
-  text-decoration: none;
-}
-
-header {
-    width: 100%;
-    height: 60px;
-    background-color: #a9a9a9;
-    color: white;
-    text-align: right;
-    display: block;
-}
-.header-left {
-  width: 124px;
-  margin-top: 2px;
-  float: left;
-  font-size: 40px
+@media all and (max-width: 670px) {
+.logo p1 {
+  font-size: 75px;
+  left: 25px;
+  top: 280px
 }
 .header-right {
-  float: right;
-  margin-right: 10px;
+  display: none;
 }
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
+.menu-icone {
   display: block;
-  float: left;
-  transition: all 0.5s;
 }
-.header-right a:link, a:visited, a:active {
-  color: white;
+.top-wrapper h1 {
+  font-size: 24px;
 }
-.header-right a:hover {
-  color: red;
-  background-color: rgba(255, 255, 255 ,0.3);
+.top-wrapper p {
+  font-size: 14px;
 }
-
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding 0 15px;
-  margin: 0 auto;
-}
-.container h1 {
-  color: red;
-  font-size: 60px;
-}
-.container p {
-  position: absolut;
-  top: 25%;
-  left: 39%;
-  font-size: 30px;
-  color: black;
-}
-
-.logo p1 {
-  font-size: 200px;
-  position: sticky;
-  color: yellow;
-  top: 0px;
-  left: 100px;
-}
-.logo {
-  position: relative;
-}
-.logo img {
-  min-height: 650px;
-  background: #f7f7f7 url(S__55017539.JPG) center to/100% auto no-repeat;
-  display: block;
+.top-wrapper .btn {
   width: 100%;
 }
+.facebook {
+  margin-bottom: 10px;
+}
+.top-wrapper {
+  text-align: left;
+}
+}
 
-footer{
-    width: 100%;
-    height: 200px;
-    background-color: #a9a9a9;
-    color: white;
-    text-align: center;
-    display: block;
-}
-.last-word p {
-  line-height: 4px
-}
-.last-word p1 {
-  color: black;
-  font-size: 10px;
-}
-.footer-menu a:link, a:visited, a:active {
-  color: white;
-}
-.footer-menu a:hover {
-  color: red
-}
-.footer-menu a {
-  text-decoration: none;
-}
-.footer-menu li1 {
-
-}
-ul.footer-menu li {
-display: inline;
+@media all and (min-width: 680px) {
+  .line{
+    display: none;
+  }
 }

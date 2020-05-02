@@ -5,6 +5,12 @@
   top: 240px;
   left: 50px;
 }
+.logo p2 {
+  font-size: 99px;
+  position: absolute;
+  top: 240px;
+  left: 45px;
+}
 .top-wrapper h1 {
     font-size: 32px;
   }
@@ -16,6 +22,12 @@
   left: 25px;
   top: 280px
 }
+.logo p2 {
+  font-size: 75px;
+  left: 20px;
+  top: 280px
+}
+
 .header-right {
   display: none;
 }
@@ -31,16 +43,19 @@
 .top-wrapper .btn {
   width: 100%;
 }
-.facebook {
-  margin-bottom: 10px;
-}
 .top-wrapper {
   text-align: left;
 }
 }
 
-@media all and (min-width: 680px) {
+@media all and (min-width: 670px) {
   .line{
+    display: none;
+  }
+  #content{
+    display: none;
+  }
+  .cp_offcm01{
     display: none;
   }
 }
